@@ -1,0 +1,3 @@
+# Subtle Logical Error in MATLAB Function
+
+This repository demonstrates a common type of error in MATLAB: a subtle logical error that is difficult to detect with casual testing. The `myFunction.m` file contains a function with a flaw in its 'else' conditional statement, leading to incorrect computations when the input is within a specific range. The solution, `bugSolution.m`, corrects this error.  This example highlights the importance of thorough testing and clear coding practices to avoid these kinds of bugs.
